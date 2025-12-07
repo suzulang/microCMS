@@ -19,6 +19,7 @@ class GetContentListTool(Tool):
             yield self.create_text_message("API key is required")
             return
 
+    
         # Get required parameters
         endpoint = tool_parameters.get("endpoint", "").strip()
         if not endpoint:
