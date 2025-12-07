@@ -182,5 +182,12 @@ run_plugin.sh
 SAAS_DEBUG_GUIDE.md
 TEST_PLAN.md
 claude-code/
+
+# Maintenance documents (keep local)
+current.md
+plan.md
+CONTRIBUTING.md
+CHANGELOG.md
+
 # Only keep .env.example, ignore actual .env files
 .env.local
