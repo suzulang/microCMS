@@ -176,7 +176,6 @@ cython_debug/
 .LSOverride
 
 # microCMS plugin specific
-*.difypkg
 debug_tools.py
 start.sh
 run_plugin.sh
