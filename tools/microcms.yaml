@@ -1,0 +1,34 @@
+identity:
+  name: "microcms"
+  author: "suzulang"
+  label:
+    en_US: "microcms"
+    zh_Hans: "microcms"
+    pt_BR: "microcms"
+    ja_JP: "microcms"
+description:
+  human:
+    en_US: "todo"
+    zh_Hans: "todo"
+    pt_BR: "todo"
+    ja_JP: "todo"
+  llm: "todo"
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+      ja_JP: クエリ文字列
+    human_description:
+      en_US: "todo"
+      zh_Hans: "todo"
+      pt_BR: "todo"
+      ja_JP: "todo"
+    llm_description: "todo"
+    form: llm
+extra:
+  python:
+    source: tools/microcms.py
